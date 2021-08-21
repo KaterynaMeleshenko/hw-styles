@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/hw-styles" >
-            <Redirect to="/signin" />
+            <Redirect to="/signup" />
           </Route>
           <Route path="/signin" component={SignIn} />
           <Route path="/signup" component={SignUp} />

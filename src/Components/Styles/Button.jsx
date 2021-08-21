@@ -13,6 +13,13 @@ cursor: pointer;
 text-align: center;
 margin-top: 20px;
 margin-left: 32px;
+&:hover {
+  box-shadow: 0 0 16px rgb(150, 200, 260);
+};
+&:active {
+  box-shadow: 0 0 16px blue;
+  background-color: blue;
+}
 `
 
 function StyledButton(props) {

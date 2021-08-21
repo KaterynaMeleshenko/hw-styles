@@ -126,6 +126,7 @@ const SignUp = () => {
           ifremember: false,
         }
         localStorage.setItem('user', JSON.stringify(user));
+        console.log("Congratulations, you are successfully signed up!")
       }
   }
 

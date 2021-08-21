@@ -90,6 +90,7 @@ const SignIn = () => {
     dataUser.ifremember = remember;
     localStorage.removeItem('user');
     localStorage.setItem('user', JSON.stringify(dataUser));
+    console.log("Congratulations, you are successfully signed in!")
   }
   
   return (
